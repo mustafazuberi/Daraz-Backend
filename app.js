@@ -42,7 +42,7 @@ app.use(express.json({ limit: '50mb' }))
 
 app.use(bodyParser.json());
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://daraz-clone-mr-zuberi.netlify.app/',
     credentials: true,            //access-control-allow-credentials:true
     optionSuccessStatus: 200
 }
